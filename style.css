@@ -1,0 +1,627 @@
+*{
+    margin: 0;
+    background-color: whitesmoke;
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #002147;
+    color: whitesmoke;
+    padding: 1% 5% 1% 5%;
+
+}
+#property{
+    padding-right: 15px;
+    background-color: #002147;
+    font-size: 18px;
+}
+.special-col-1,
+.special-col-2{
+    background-color: #002147;
+}
+#yellow{
+    color: #f8b90c;
+    background-color: #002147;
+}
+.fa-brands{
+    background-color: #002147;
+}
+
+   
+    /* nav section */
+nav{
+    height: 80px;
+    background-color: whitesmoke;
+    text-align: center;
+    margin-top: 29px;
+}
+#nav{
+    display: flex;
+}
+a{
+    margin-left: 15px;
+    text-decoration: none;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*main section of the body*/
+.section-main{
+    background-color: aqua;
+    padding: 10% 0 10% 0;
+    background: url(images/School-ground.png) no-repeat;
+    background-size:cover;
+ 
+}
+.main-sub-row-1,
+.main-sub-row-2,
+.main-sub-row-3{
+    color: #002147;
+    background-color:#f5f5f5;
+   
+}
+.main-sub-row-1{
+    font-size: 40px;
+    padding-bottom: 1%;
+    
+
+}
+.main-sub-row-2{
+    font-size: 25px;
+    padding-bottom: 1%;
+}
+.main-sub-row-3{
+    font-size: 19px;
+    color: #002147bd;
+    padding-bottom: 3%;
+}
+.main-row-1{
+    width: 50%;
+    padding-left: 10%;
+    color: #002147;
+}
+.sub-row-2{
+    display: flex;
+    
+}
+
+
+/*sliding text notice section*/
+
+.section-notice{
+    background-color: #f8b90c;
+    background: linear-gradient(to right,#f8b90c,#b68dddce,#f8b90c);
+    padding: 1%;
+    color: #002147;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/*-welcome section*/
+.welcome{
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 3% 1% 3%;
+}
+.welcome-sub-row-3,
+.welcome-sub-row-4{
+    color: #002147d3;
+    width: 40%;
+    font-size: 19px;
+    margin-bottom: 1%;
+}
+.welcome-sub-row-2{
+    color: #002147;
+    font-size: 220%;
+    padding: 1% 1% 1% 0;
+}
+.welcome-sub-row-1{
+    color: #002147;
+    margin-top: 1%;
+}
+
+
+/*School inside information*/
+.school-inside{
+    display: flex;
+    margin: 1%;
+    padding-top: 5%;
+    padding: 4% 7% 0 7%;
+
+}
+.principal-title{
+    color: #333333;
+    font-size: 33px;
+    text-align: center;
+}
+.inside{
+    width: 50%;
+}
+.principal-figure{
+    padding: 3% 0 0 35%;
+}
+#principal-imgage{
+    border-radius: 50%;
+}
+
+.principal-about{
+    color: #a79e9e;
+    font-size:large;
+    padding-top: 2%;
+}
+
+/*school activites*/
+.School-Activities{
+    height: 100px;
+    background-color: rgba(137, 43, 226, 0.466);
+}
+/*school about decription paragraph*/
+.Description{
+    background-color:#f5f5f5;
+    margin: 2% 6% 2% 6%;
+}
+.para{
+    background-color:#f5f5f5;
+    color: black;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 3%;
+}
+.para-one{
+    margin-bottom: 1%;
+}
+#know-more{
+    background:#f8b90c;
+    color: #002147;
+    padding: 12px 24px ;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+    margin-right: 3px;
+
+}
+#know-more:hover{
+    color: whitesmoke;
+    background-color: #002147;
+}
+#icon-know-more{
+    background: #f8b90c;
+}
+#icon-know-more:hover{
+    background-color: #002147;
+}
+/*Want to study at The bele durga nagar high  School*/
+.Apply-now{
+    background-color: #f8b90c;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 29px;
+    padding: 3%;
+}
+.apply-title-h2{
+    color: #002147;
+    font-size: 40px;
+    background: #f8b90c;
+    padding-left: 0;
+
+}
+#apply-button{
+    background:#002147;
+    color: whitesmoke;
+    padding: 12px 24px ;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: none;
+
+}
+#apply-button:hover{
+    color: #002147;
+    background-color: whitesmoke;
+}
+.fa-solid:hover{
+    background: whitesmoke;
+}
+.apply-button{
+    background: #f8b90c;
+}
+.fa-solid{
+    background-color: #002147;
+    margin-left: 4px;
+}
+
+
+/* make-an-enqery */
+
+
+.Make-an-Enquiry{
+    display: flex;
+    height:auto;
+    background-color: #f5f5f5;
+    margin: 3%;
+    justify-content: space-around;
+}
+form{
+    margin: 1%;
+    padding: 3%;
+    width: 25%;
+    background-color: white;
+    box-shadow: 2px 2px 7px 1px gray;
+}
+.video-box{
+    box-shadow: 2px 2px 7px 1px gray;
+    border-radius: 3px;
+    align-items: center;
+    border-radius: 7px;
+    margin-top: 2%;
+}
+
+.title{
+    color: #333333;
+    background-color: white;
+    font-size: 29px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#info{
+    padding: 3px;
+    background-color: white;
+}
+#info-title{
+    background-color: white;
+}
+input[type="email"],
+input[type="name"],
+input[type="number"]{
+    width: 80%;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    margin: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);  
+}
+#class-name{
+    width: 83%;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    margin: 3px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);  
+}
+.submit{
+    width: 85px;
+    border: none;
+    padding: 13px;
+    margin:12px;
+    color: whitesmoke;
+    background-color: #002147;
+    font-family: 'Noto Serif Display', serif;
+    font-weight: bold;
+    line-height: 15px;
+    font-size: 17px;
+
+}
+.submit:hover{
+    color: #002147;
+    background-color: #f8b90c;
+}
+
+/* make-an-enqery responsive style seat */
+
+@media screen and (min-width:300px) and (max-width:850px){
+    *{
+        margin: 0;
+        background-color: whitesmoke;
+    }
+    .Make-an-Enquiry{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height:auto;
+    }
+    .video-box{
+        box-shadow: 2px 2px 7px 1px gray;
+        border-radius: 3px;
+        border-radius: 3px;
+        margin-top: 2%;
+        width:75% ;
+
+    }
+    form{
+        margin-top: 5%;
+        padding: 3%;
+        width: 67%;
+        background-color: white;
+        box-shadow: 2px 2px 7px 1px gray;
+    }
+    .title{
+        color: #333333;
+        background-color: white;
+        font-size: 29px;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 5%;
+    }
+    #info{
+        padding: 3px;
+        background-color: white;
+    }
+    #info-title{
+        background-color: white;
+    }
+    input[type="email"],
+    input[type="name"],
+    input[type="number"]{
+    width: 80%;
+    background-color: white;
+    padding: 5px;
+    border: none;
+    margin: 3px;
+    margin-top: 5px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);
+    }
+    #class-name{
+        width: 83%;
+        background-color: white;
+        padding: 5px;
+        border: none;
+        margin: 3px;
+        border-radius: 5px;
+        box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);  
+    }
+    .submit{
+        width: 85px;
+        border: none;
+        padding: 13px;
+        margin:12px;
+        color: whitesmoke;
+        background-color: #002147;
+        font-family: 'Noto Serif Display', serif;
+        font-weight: bold;
+        line-height: 15px;
+        font-size: 17px;
+    
+    }
+    .submit:hover{
+        color: #002147;
+        background-color: #f8b90c;
+    }
+}
+
+/* facilites section */
+
+.Facilities{
+    height: 300px;
+    background-color: rgb(153, 20, 20);
+}
+
+/* Latest News & Events */
+.Latest{
+    background-color: whitesmoke;
+    padding: 3% 0 8%;
+    height:235px;
+    width: 100%;
+}
+.box-1{
+    width: 100%;
+    background-color: whitesmoke;
+    margin: 1% 3% 1% 3%;
+}
+h2.news-events{
+    font-size:250%; 
+    text-align: center;
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+#button,
+#button-event{
+    border: none;
+    background-color:#f8b90c;
+    color: white;
+    padding:1%;
+    margin-left: 1%;
+    font-size: medium;
+}
+#button{
+    background-color:#002147;
+}
+#button-event:hover{
+    background-color:#002147;
+}
+.box-2{
+    margin: 1% 3% 1% 3%;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    background-color: whitesmoke;
+}
+.subbox{
+    width: 25%;
+    height: 70px;
+    background-color:white;
+    padding: 2%;
+    box-shadow: 2px 3px 2px gray;
+    margin: 1%;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.admin-date{
+    display: flex;
+    background-color: white;
+    color: black;
+    font-style: italic;
+    
+}
+.admin,.date{
+    color: #a79e9e;
+    background-color: white;
+    margin: 10px 15px 0 0;
+}
+.notice{
+    color: black;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.fa-solid{
+    background-color: #f5f5f5;
+}
+/* footer link */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;1,700&family=Noto+Serif+Display:wght@200&family=Poppins&display=swap');
+
+.container-footer{
+    max-width: 1300px;
+    background-color: red;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #24262b;
+}
+ul{
+    list-style: none;
+    background-color: #24262b;
+}
+.footer{
+    background-color:#24262b ;
+    padding: 70px 0;
+
+}
+.footer-col{
+    width: 20%;
+    background-color: #24262b;
+}
+.container-footer .row #col-1{
+    width: 30%;
+}
+.footer-col  h4{
+    font-size: 25px;
+    color:#ffffff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-weight: 500;
+    position: relative;
+    background-color: #24262b;
+   
+}
+.footer-col  h4::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color:#e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width: 50px;
+
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom: 10px;
+    
+}
+.footer-col ul li{
+    background: #24262b;
+}
+.footer-col ul{
+    padding: 0;
+}
+
+.footer-col ul li a{
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    margin: 0;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+    background-color: #24262b;
+    
+}
+.footer-col ul li a:hover{
+    color:#ffffff;
+    padding-left: 10px;
+    
+}
+div.social-links{
+    background-color: #24262b;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(255, 255, 255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.footer-col .social-links a:hover{
+    color: #24262b;
+    background-color:#ffffff;
+}
+.fab{
+    background-color:rgba(255, 255, 255,0.2);
+    background: none;
+}
+.footer-col ul b{
+    background-color: #24262b;
+}
+.footer-col ul .fa-solid{
+    background-color: #24262b;
+    color: #f8b90c;
+}
+
+
+/*...........responsive.............*/
+
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:574px){
+    .footer-col{
+        width: 100%; 
+        padding-left: 9%;
+    }
+}
+
+/* footer section */
+.dev-site{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 46, 107);
+    font-size: 18px;
+    padding: 2% 1% 1% 1%;
+}
+.made-by-name,.school-name{
+    background-color: rgb(5, 46, 107);
+    font-family: 'Playfair Display', serif;
+    font-family: 'Syne Mono', monospace;
+    margin: 0;
+    color: yellow;
+    font-size: 18px;
+
+}
+.dev-site p{
+    color: whitesmoke;
+}
+.copyright,.made-by{
+    background-color: rgb(5, 46, 107);
+    
+}
+
+
