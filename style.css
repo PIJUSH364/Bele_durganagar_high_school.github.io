@@ -3,9 +3,37 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.notifiacation {
+  /* display: none; */
+  box-sizing: border-box;
+  padding-top: 0.3rem;
+  background: #a79e9e;
+  height: 7vh;
+  text-align: center;
+  color: whitesmoke;
+}
+.notifiacation p a {
+  text-decoration: none;
+  color: #002147;
+}
+.notifiacation p button {
+  background: #4b8ad1;
+  /* border-radius: 3px; */
+  border: none;
+  width: 80px;
+  padding: 0.6rem;
+  color: whitesmoke;
+  border-radius: 75px;
+}
+.notifiacation p button:hover {
+  background: whitesmoke;
+  color: #24262b;
+}
+.notifiacation_hidden {
+  display: none;
+}
 /* ******** section-1__________________all link icon ************ */
-.section_1 {
+*/ .section_1 {
   box-sizing: border-box;
 }
 .special {
@@ -65,9 +93,9 @@
 .MenuDropDown1 ul {
   padding: 0px;
 }
-.nav-col3_subMenuSection {
-  background-color: gainsboro;
-}
+/* .nav-col3_subMenuSection {
+  
+} */
 .nav-col3_subMenuSection li a span {
   background-color: gainsboro;
   text-decoration: none;
@@ -94,12 +122,10 @@
 }
 .MenuDropDown1 ul li ul {
   display: none;
+  background-color: gainsboro;
 }
-/* div ul li ul li{
-        color: black;
-    } */
+
 div ul li:hover {
-  /* background: rgb(0, 183, 255); */
   color: #f8b90c;
   cursor: pointer;
   font-weight: 550;
@@ -128,8 +154,9 @@ div ul li:hover > ul {
 }
 .MenuDropDown1 ul li ul li a {
   text-decoration: none;
-  color: #002147;
+  color: #413a3bd3;
 }
+
 .MenuDropDown1 ul li ul li a :hover {
   text-decoration: none;
 }
@@ -235,6 +262,231 @@ div #know-more .fa-caret-right {
 
 /* ================================================= */
 /* ================================================= */
+/* ************section 6 ---school administrator**********--> */
+.section_6 {
+  box-sizing: border-box;
+  padding: 1.7rem 1.7rem 1.7rem 4rem;
+  /* background: linear-gradient(
+    to right left,
+    rgba(231, 230, 230, 0.582) ;,
+    /* #fcfcfc 
+  ); */
+  background: rgba(231, 230, 230, 0.459);
+}
+.administrator {
+  display: flex;
+}
+/* js use */
+
+.operations {
+  /* max-width: 100rem; */
+  /* margin: 12rem auto 0 auto; */
+  padding: 1.7rem 1.5rem 0 0rem;
+}
+.btn {
+  border: none;
+  padding: 0.4rem;
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(72, 100, 128);
+  background: inherit;
+  font-family: 'Times New Roman', Times, serif;
+}
+.btn:hover {
+  color: #ffaf03da;
+}
+
+.operations__tab-container {
+  display: flex;
+  justify-content: center;
+}
+.operations__tab {
+  margin-right: 2.5rem;
+  transform: translateY(-30%);
+}
+
+.operations__tab span {
+  margin-right: 1rem;
+  font-weight: 600;
+  display: inline-block;
+}
+
+.operations__tab--active {
+  transform: translateY(-56%);
+}
+
+.operations__content {
+  display: none;
+  color: #333333;
+  /* JUST PRESENTATIONAL */
+  font-size: 1.1rem;
+  padding: 1.3rem;
+}
+.operations__content figure img {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+.operations__content--active {
+  display: grid;
+  /* grid-template-rows: 1fr 1fr; */
+}
+
+/* ================== */
+.school_overview {
+  width: 50%;
+}
+.Principal_Desk {
+  width: 50%;
+  text-align: center;
+  color: #333333;
+}
+.Principal_Desk div p {
+  text-align: left;
+  font-size: 1.1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Principal_Desk figure img {
+  border-radius: 50%;
+}
+.Principal_Desk figure {
+  padding: 1rem;
+}
+/* ================================================= */
+/* ================================================= */
+/* ******************** section_7---image sliding on school activities*************** */
+
+.section_7 {
+  /* width: 100%; */
+  /* height: 30vh; */
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: inherit;
+  overflow: hidden;
+  /* position: relative; */
+  /* top: 500px; */
+}
+/* .bar_sliding {
+  color: rgb(16, 34, 34);
+  text-align: center;
+} */
+.slide-container {
+  /* width: 100%; */
+  height: 40vh;
+  padding-top: 1rem;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  /* background: linear-gradient(to right, rgb(255, 65, 108), rgb(255, 75, 43)); */
+}
+.image-slider {
+  /* width: 100%; */
+  /* hight can be change************ */
+  /* height: 600px; */
+
+  position: absolute;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.7s;
+  /* overflow: hidden; */
+}
+.slides-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 1px 0 10px;
+}
+/* image under text showing pourpose */
+.slides-div a h2 {
+  /* text-align: end; */
+  text-align: center;
+  padding-top: 75%;
+  color: black;
+}
+.img {
+  position: relative;
+  width: 240px;
+  height: 170px;
+  transition: 0.5s;
+  filter: saturate(10%);
+}
+.button {
+  position: absolute;
+  width: 240px;
+  height: 170px;
+  transition: 0.5s;
+  background-color: rgb(0, 0, 0, 0.4);
+}
+.button:hover {
+  background-color: rgb(0, 0, 0, 0.2);
+}
+#slider-span1:target ~ .image-slider #img1,
+#slider-span1:target ~ .image-slider #button-1 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span2:target ~ .image-slider #img2,
+#slider-span2:target ~ .image-slider #button-2 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+
+#slider-span3:target ~ .image-slider #img3,
+#slider-span3:target ~ .image-slider #button-3 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+
+#slider-span4:target ~ .image-slider #img4,
+#slider-span4:target ~ .image-slider #button-4 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span5:target ~ .image-slider #img5,
+#slider-span5:target ~ .image-slider #button-5 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+#slider-span6:target ~ .image-slider #img6,
+#slider-span6:target ~ .image-slider #button-6 {
+  width: 290px;
+  height: 210px;
+  filter: saturate(100%);
+  background-color: transparent;
+}
+/* image possition */
+
+#slider-span1:target ~ .image-slider {
+  left: 20%;
+}
+#slider-span2:target ~ .image-slider {
+  left: 10%;
+}
+#slider-span3:target ~ .image-slider {
+  left: 5%;
+}
+
+#slider-span5:target ~ .image-slider {
+  left: -5%;
+}
+#slider-span6:target ~ .image-slider {
+  left: -18%;
+}
+
+/* ================================================= */
 
 /****section 8 Drecption about the  school*************** */
 .School-Activities {
@@ -336,23 +588,20 @@ form {
 input[type='email'],
 input[type='name'],
 input[type='number'] {
-  width: 80%;
+  width: 100%;
   background-color: white;
-  padding: 5px;
-  border: none;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
   margin: 3px;
-  margin-top: 5px;
   border-radius: 5px;
-  box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);
 }
 #class-name {
-  width: 83%;
+  width: 100%;
   background-color: white;
-  padding: 5px;
-  border: none;
+  padding: 10px;
+  border: 1px solid #bbbbbb;
   margin: 3px;
   border-radius: 5px;
-  box-shadow: 1px 2px 2px 1px rgba(128, 128, 128, 0.411);
 }
 .submit {
   width: 85px;
@@ -580,4 +829,24 @@ div.social-links {
 .copyright,
 .made-by {
   background-color: rgb(5, 46, 107);
+}
+/* ====================================== */
+/* ====================================== */
+.down_botton {
+  /* padding: 0.3rem; */
+  /* background: #33333399; */
+  background: transparent;
+}
+.down_botten button {
+  padding: 1rem;
+  /* opacity: 0.5; */
+  /* border: none; */
+  border-color: #3230308b;
+  border-radius: 5px;
+  /* transform: translateY(+50%); */
+}
+.down_botten button .fa-circle-arrow-up {
+  padding: 0.4rem;
+  font-size: 300px;
+  color: #002147;
 }
